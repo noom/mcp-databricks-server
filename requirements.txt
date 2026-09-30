@@ -6,3 +6,5 @@ pydantic>=2.0.0
 mcp>=0.1.0
 pyarrow>=14.0.1
 requests>=2.31.0 
+oauthlib>=4.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
